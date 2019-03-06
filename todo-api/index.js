@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const { Pool } = require('pg');
 const redis = require('redis');
 var elasticsearch = require('elasticsearch');
-const envProps = require('./local_env_props');
+const envProps = require('./env_props');
 
 // Initializing the Express Framework /////////////////////////////////////////////////////
 const app = express();
